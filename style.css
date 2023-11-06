@@ -1,0 +1,530 @@
+*{
+    box-sizing: border-box;
+}
+
+.fix{
+    display: inline;
+    align-items: center;
+    display: flex;
+    justify-content: space-between ;
+    flex: 1;
+    margin-left: 10px;
+}
+
+.btns{
+    margin-left: 10px;
+}
+
+.brand{
+    font-family: 'Roboto Slab', serif;
+}
+
+/* Hero section*/
+.hero{
+    width: 100%;
+}
+
+.heroimg{
+    opacity: 0.2;
+    position: relative;
+}
+
+.heroc{
+    display: grid;
+    grid-template-columns: auto auto;
+    position: absolute;
+    top: 120px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero1{
+   width: 100%; 
+   gap:100px;
+   justify-content:center;
+   padding: 80px ;
+}
+
+.heroimg2{
+    display: inline-block;
+    width: 300px;
+    border-radius: 50%;
+    box-shadow: 20px 10px 50px yellow;
+    z-index: 15px;
+}
+
+/* Features section */
+.features-txt{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap:20px;
+    width: 100%;
+    padding: 40px 0;
+}
+
+.features-top{
+    padding: 70px 70px;
+    align-item: center;
+    justify-content: center;
+     align-content: center;
+}
+
+.ftcol{
+    font-family: 'Roboto Slab', serif; 
+    font-size: 20px;
+}
+
+.ivon{
+    border-radius: 100%;
+    font-size: 25px;
+    padding: 8px;
+}
+
+.i{
+    padding: 20px 0;
+}
+
+/* Course section */
+.courseg {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/hero.jpg");
+    background-size: cover;
+}
+ 
+
+.course1{
+    display: grid;
+    grid-template-columns: auto auto ;
+    width: 100%;
+    padding: 30px;
+    margin-right: 30px;
+}
+
+.flx{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 100%;
+    padding: 30px;
+}
+
+.left{
+    text-align: right;
+    margin-right: 40px ;
+}
+
+.cm{
+    border-radius: 100%;
+    width: 50px;
+}
+
+.firstc{
+    display: flex;
+    gap:20px;
+    
+    align-items:center;
+}
+
+.mask{
+    background-color: seagreen;
+    border-radius: 100%;
+    height: 100%;
+    font-size: 20px;
+    padding: 10px;
+    color: whitesmoke;
+    position: relative;
+    bottom: 30px;
+    left: 60px;
+    z-index: 1;
+    box-shadow: 20px 20px 20px 5px whitesmoke;
+}
+
+.mv{
+    position: relative;
+    bottom: 30px;
+    left: 15px;
+}
+
+/* student  section*/
+.my{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/nature2.jpg");
+    background-size: cover;
+    border-radius: 30px;
+}
+
+.for{
+    display: flex;
+    justify-content: space-between;
+    padding: 35px;
+    gap:20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.my{
+    padding: 20px;
+    width: 300px;
+    height: 100%;
+}
+
+.left1{
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+}
+
+/* student section */
+.make,.imgsp{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    width: 100%;
+    gap:20px;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.f{
+    width: 200px;
+    border-radius: 20%;
+    height: 100%;
+}
+
+.f1{
+    padding: 40px 40px 10px;
+}
+
+.tap {
+    background-color: whitesmoke;
+}
+
+
+/* footer section */
+.card-footer{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    justify-content: space-between;
+    gap:10px;
+    padding: 40px;
+}
+
+.card-footer li, a{
+    list-style-type: none;
+    text-decoration:none;
+    padding-bottom:5px;
+    color: whitesmoke;
+    
+}
+
+.foof{
+    padding-bottom:10px;
+    color: gold;
+}
+
+.m{
+    margin-left: 10px;
+}
+
+.btns, .foofs{
+    margin-right:50px;
+}
+
+.btns{
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.txt{
+    padding: 40px 20px 0;
+}
+
+.btmm{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    gap: 10px;
+    width: 100%;
+    padding: 40px;
+}
+
+.pl{
+    margin-right: 50px;
+    opacity: 0.5;
+}
+
+.pp,.pps{
+   margin-bottom:0;
+   margin-top: 0;
+   padding-top: 0;
+   padding-bottom: 80%;
+   display: inline-block;
+   height: auto;
+}
+
+.btnp{
+    font-family: 'Roboto Slab', serif; 
+    font-size: 20px;
+}
+
+/* Your existing CSS */
+
+@media (max-width: 1000px) {
+  /* Styles for screens 760px and below */
+  .fix {
+    display: inline;
+    margin-left: 0;
+  }
+  
+  nav{
+      padding-bottom: 0;
+      padding-top: 0;
+  }
+  
+ .btnss{
+     width: 100%;
+ }
+ 
+.hero{
+    display: block;
+}
+
+.heroc{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap:40px;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 30px 30px;
+    margin: 0 0;
+    position: relative;
+}
+
+.heroimg{
+    display: none;
+}
+
+.hero1{
+   /* justify-content: space-between;  */
+   width: 100%; 
+   /* gap:100px; */
+   /* justify-content:center; */
+   padding: 20px ;
+}
+
+.heroimg2{
+    display: inline-block;
+    width: 300px;
+    border-radius: 50%;
+    box-shadow: 20px 10px 50px yellow;
+    z-index: 15px;
+}
+  /* Add more media query styles as needed */
+}
+
+@media (max-width: 768px){
+    .courseg {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/hero.jpg");
+    background-size: cover;
+    width: 100%;
+}
+ 
+
+.course1{
+    display: grid;
+    grid-template-columns: auto auto ;
+    width: 100%;
+    padding: 30px;
+    margin-right: 30px;
+}
+
+.flx{
+    display: grid;
+    grid-template-columns: auto;
+    width: 100%;
+    padding: 50px;
+    align-items:center ;
+    justify-content: center;
+    gap:20px;
+}
+
+.left{
+    text-align: right;
+    margin-right: 40px ;
+}
+
+.cm{
+    border-radius: 100%;
+    width: 50px;
+}
+
+.firstc{
+    display: flex;
+    gap:20px;
+    
+    align-items:center;
+}
+
+.mask{
+    background-color: seagreen;
+    border-radius: 100%;
+    height: 100%;
+    font-size: 20px;
+    padding: 10px;
+    color: whitesmoke;
+    position: relative;
+    bottom: 30px;
+    left: 60px;
+    z-index: 1;
+    box-shadow: 20px 20px 20px 5px whitesmoke;
+}
+
+.mv{
+    position: relative;
+    bottom: 30px;
+    left: 15px;
+}
+
+.make,.imgsp{
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    width: 100%;
+    gap:20px;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.card-footer{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+    gap:10px;
+    padding: 40px;
+}
+}
+
+@media (max-width: 435px){
+.heroimg{
+    display: none;
+}
+
+.hero1{
+   /* justify-content: space-between;  */
+   width: 100%; 
+   /* gap:100px; */
+   /* justify-content:center; */
+   padding: 5px ;
+}
+
+.heroimg2{
+    display: none;
+}
+
+.her{
+    display: block;
+    width: 100%;
+    padding:10px;
+    
+}
+
+.btt{
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+.hero{
+    padding-bottom: 20px;
+}
+
+.features-txt{
+    display: grid;
+    grid-template-columns: auto;
+    gap:20px;
+    width: 100%;
+    padding: 40px 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.features-top{
+    padding: 70px 70px;
+    align-item: center;
+    justify-content: center;
+     align-content: center;
+}
+
+.ftcol{
+    font-family: 'Roboto Slab', serif; 
+    font-size: 20px;
+}
+
+.ivon{
+    border-radius: 100%;
+    font-size: 25px;
+    padding: 8px;
+}
+
+.i{
+    padding: 10px 0;
+}
+
+.make,.imgsp{
+    display: grid;
+    grid-template-columns: auto;
+    width: 100%;
+    gap:20px;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.f{
+    width: 200px;
+    border-radius: 20%;
+    height: 100%;
+}
+
+.f1{
+    padding: 10px px 10px;
+}
+
+.tap {
+    background-color: whitesmoke;
+}
+
+.my{
+    background-image: none;
+    background-size: cover;
+    border-radius: 30px;
+}
+
+.for{
+    display: block;
+    justify-content: space-between;
+    padding: 42px auto 0;
+    gap:20px;
+    text-align: center;
+}
+
+.my{
+    padding: 20px;
+    width: 300px;
+    height: 100%;
+}
+
+.left1{
+    display: none;
+    align-items: none;
+    justify-content: none ;
+}
+
+.fa{
+    display: none;
+    padding-bottom: none;
+}
+
+.card-footer{
+    display: grid;
+    grid-template-columns: auto;
+    aalign-items: center;
+    justify-content: center;
+}
+}
